@@ -907,7 +907,7 @@ input[type='checkbox'] {
 }
 
 .filter .button-group a {
-	display: inline-block;
+	display: block;
 	margin-right: 0.1875rem;
 	margin-bottom: 0.5rem;
 	margin-left: 0.1875rem;
