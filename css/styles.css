@@ -1501,7 +1501,7 @@ a:hover.back-to-top {
 }
 /* end of min-width width 768px */
 
-@media (max-width: 800px){
+@media (max-width: 900px){
 	/* end of extra pages */
 	.product-p {
 		display: none;
@@ -1509,6 +1509,10 @@ a:hover.back-to-top {
 	.image-wrapper {
 		padding: 0 5px;
 		text-align: center;
+	}
+	.product h3{
+		font-size: 15px;
+		line-height: 17px;
 	}
 }
 
