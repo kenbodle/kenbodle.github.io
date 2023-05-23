@@ -996,6 +996,10 @@ input[type='checkbox'] {
 	border-radius: 4px;
 	margin-top: 10px;
 }
+.product-text{
+	text-align: center;
+	font-size: 40px;
+}
 
 .product {
 	width: 30%;
