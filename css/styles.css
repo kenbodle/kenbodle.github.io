@@ -876,6 +876,10 @@ input[type='checkbox'] {
 /************************/
 /*     07. Links     */
 /************************/
+
+#links{
+	padding-bottom: 20px;
+}
 .filter {
 	padding-top: 6.5rem;
 	padding-bottom: 7rem;
@@ -1497,7 +1501,7 @@ a:hover.back-to-top {
 }
 /* end of min-width width 768px */
 
-@media (max-width: 900px){
+@media (max-width: 800px){
 	/* end of extra pages */
 	.product-p {
 		display: none;
