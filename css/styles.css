@@ -1000,7 +1000,6 @@ input[type='checkbox'] {
 	text-align: center;
 	font-size: 40px;
 }
-
 .product {
 	width: 30%;
 	padding: 10px;
@@ -1495,10 +1494,19 @@ a:hover.back-to-top {
 	.ex-basic-2 .form-container {
 		margin-top: 0.5rem;
 	}
-	/* end of extra pages */
 }
 /* end of min-width width 768px */
 
+@media (max-width: 900px){
+	/* end of extra pages */
+	.product-p {
+		display: none;
+	}
+	.image-wrapper {
+		padding: 0 5px;
+		text-align: center;
+	}
+}
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
@@ -1727,6 +1735,7 @@ a:hover.back-to-top {
 		padding-bottom: 5rem;
 	}
 	/* end of extra pages */
+
 }
 /* end of min-width width 992px */
 
