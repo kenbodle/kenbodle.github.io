@@ -822,7 +822,28 @@ pre code {
 .offset-11 {
   margin-left: 91.666667%;
 }
+.col-md-4-country, .col-md-8-country{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media (min-width: 992px) {
+  .col-md-4-country, .col-md-8-country, .col-md-12-country {
+    float: left;
+  }
+  .col-md-12-country {
+    width: 100%;
+  }
+  .col-md-8-country {
+    width: 66.66666667%;
+  }
 
+  .col-md-4-country {
+    width: 33.33333333%;
+  }
+
+}
 @media (min-width: 576px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
